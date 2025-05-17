@@ -37,7 +37,12 @@
     }
 
     .pc-content-link {
-        width: 90%;
+        width: 95%;
+    }
+
+    .main-content-works {
+        width: 95%;
+        margin: 0 2.5%;
     }
 
     #text-for-smartphone {

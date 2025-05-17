@@ -181,6 +181,11 @@ body {
     line-height: 1.6;
 }
 
+.main-content-works {
+    width: 70%;
+    margin: 0 15%;
+}
+
 .pc-content-link {
     width: 100%;
     padding: 10px;
