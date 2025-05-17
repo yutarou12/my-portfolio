@@ -1,0 +1,254 @@
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+h1, h2, h3, h4, h5, h6, a, p {
+    color: #ffffff;
+}
+
+body {
+    background-color: #161616;
+}
+
+
+.main {
+    width: 100%;
+}
+
+.body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 100%;
+    background-color: #161616;
+}
+
+.header nav {
+    width: 70%;
+    margin: auto 15%;
+    
+}
+
+.header-nav-ul {
+    display: flex;
+    justify-content: center;
+    background-color: #242424;
+}
+
+.header-nav-ul a {
+    color: #fff;
+    text-decoration: none;
+    font-size: large;
+    padding-bottom: 4px;
+    background-image: linear-gradient(90deg, #ffffff, #ffffff); /* 線の色 */
+    background-repeat: no-repeat;
+    background-position: left bottom; /* 線の起点を左・下に設定 */
+    background-size: 0 2px; /* 線の横幅を0、縦幅を1pxに */
+    transition: background-size 0.6s; /* 線を伸ばすアニメーション実行時間を指定 */
+}
+
+.header-nav-ul li {
+	width: 5%;
+	height: 30px;
+	padding: 10px;
+    margin: auto 10px;
+    text-align: center;
+}
+
+.header-nav-ul li a:hover {
+    background-size: 100% 2px;
+}
+
+.header nav ul {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+.main-content {
+    background-color: #242424;
+    width: 70%;
+    margin-top: 50px;
+    margin: 0px 15% 0px;
+    height: auto;
+}
+
+.mc-container { 
+    background-color: #242424;
+}
+
+.mc-profile-text {
+    display: flex;
+    justify-content: center;
+}
+
+.mc-profile-text h2 {
+    padding-bottom: 4px;
+    background-image: linear-gradient(90deg, #ffffff, #ffffff); /* 線の色 */
+    background-repeat: no-repeat;
+    background-position: left bottom; /* 線の起点を左・下に設定 */
+    background-size: 100% 2px; 
+    margin: 12px auto 12px auto;
+    font-size: xx-large;
+}   
+
+.mc-profile-container {
+    width: 80%;
+    margin: 30px 10%;
+    /*padding: 0 20px 20px 0px;
+    transition: padding 1.5s;*/
+    display: flex;
+    justify-content: center;
+}
+
+.pc-content {
+    white-space: normal;
+    word-wrap: break-word; /* 長い単語を折り返す */
+    overflow-wrap: break-word; /* 同様に長い単語を折り返す */
+    max-width: 50%;
+}
+
+#text-for-smartphone {
+    display: none;
+}
+
+#text-for-pc {
+    display: block;
+}
+
+.pc-profile-img img {
+    width: 60%;
+    border: 10px solid #ffffff;
+    border-radius: 20px;
+    /*background-color: transparent;
+    transition: border 1.5s;
+    transition-delay: 0.3s;*/
+}
+.pc-content-ul {
+    margin: 0;
+}
+
+.pc-content-ul a {
+    font-size:30px;
+}
+
+.pc-content-ul li {
+    padding: 3px;
+    margin-bottom: 8px;
+}
+
+.works-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    padding: 20px;
+}
+
+.works-item {
+    /*background: #ffffff;*/
+    border: 5px solid #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.works-item:hover {
+    transform: translateY(-5px);
+}
+
+.works-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.works-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #d3d3d3;
+}
+
+.works-item p {
+    color: #d8d8d8;
+    line-height: 1.6;
+}
+
+.pc-content-link {
+    width: 100%;
+    padding: 10px;
+}
+
+.pc-content-link-ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+.pc-content-link-ul li {
+    background: rgba(255, 255, 255, 0.1);
+    border: 3px solid #ffffff;
+    border-radius: 8px;
+    transition: transform 0.2s ease;
+}
+
+.pc-content-link-ul li:hover {
+    transform: translateY(-3px);
+}
+
+.pc-content-link-ul li a {
+    display: block;
+    padding: 15px 20px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+/* footer */
+.footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 30px 0;
+}
+
+.footer-nav {
+    width: 80%;
+    margin: 0 auto 20px;
+}
+
+.footer-nav-ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    gap: 30px;
+}
+
+.footer-nav-ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: color 0.2s ease;
+}
+
+.footer-nav-ul li a:hover {
+    color: #d3d3d3;
+}
+
+.footer p {
+    text-align: center;
+    color: #ffffff;
+    margin: 0;
+    font-size: 0.9em;
+}
+
+
