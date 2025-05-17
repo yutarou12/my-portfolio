@@ -11,9 +11,11 @@ function worksContainerClick(e, element) {
     if (element.classList.contains("works-item-1")) {
         window.open("https://github.com/yutarou12/Artifacter-Bot", "_blank");
     } else if (element.classList.contains("works-item-2")) {
-        window.open("https://github.com/yutarou12/Splatoon-Bot", "_blank");
+        window.open("https://github.com/yutarou12/Splatoon2", "_blank");
     } else if (element.classList.contains("works-item-3")) {
-        window.open("https://github.com/yutarou12/In-Room-Check-Service", "_blank");
+        window.open("https://github.com/yutarou12/bluetooth-in-room-notice", "_blank");
+    } else if (element.classList.contains("works-item-4")) {
+        window.open("https://github.com/yutarou12/Connect-Lineworks-discord", "_blank");
     }
 }
 
